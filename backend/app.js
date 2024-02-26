@@ -1,9 +1,10 @@
 // Importando as bibliotecas necessárias
+require("dotenv").config(); // Configuração para carregar variáveis de ambiente do arquivo .env
 const express = require("express"); // Express para criação de servidores web
 const path = require("path"); // Path para manipulação de caminhos de arquivos
 const cors = require("cors"); // Cors para habilitar o acesso de recursos entre diferentes origens
 
-const port = 5000; // Definindo a porta em que o servidor será executado
+const port = process.env.PORT; // Obtendo a porta do servidor do ambiente e armazenando-a na variável 'port'
 
 const app = express(); // Criando uma instância do servidor Express
 

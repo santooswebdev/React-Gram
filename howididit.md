@@ -21,3 +21,8 @@
 - Programando em "./backend/app.js" (comentários no documento).
 - Criado script em package.json, (dentro de scripts) `"server": "nodemon ./app.js"` para rodar nossa aplicação. Logo o comando para iniciar é `npm run server`.
 - Executando este comando `npm run server` e estando tudo ok, finalizamos está etapa.
+
+# 2 - Configurando .env
+
+- Criando arquivo ".env".
+- Programando em "./backend/app.js" (comentários no documento).
